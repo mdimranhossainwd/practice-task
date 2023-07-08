@@ -42,6 +42,11 @@ body {
   margin-bottom: 35px;
 }
 
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 .btn {
   color: #005fac;
   padding: 19px 26px;
@@ -109,10 +114,10 @@ body {
 }
 
 .news-letter {
-  background-image: url("../img/watch.png");
+  background-image: url(../img/gradient1.png), url("../img/watch.png");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 70px 0;
+  padding: 70px 0 70px 50px;
   margin: 70px 0;
 }
 
@@ -166,9 +171,15 @@ footer {
   margin-bottom: 30px;
 }
 
-button {
+.news-letter h2 {
+  font-size: 30px;
   color: #fff;
-  padding: 19px 26px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  color: #fff;
+  padding: 19px 30px;
   background-color: #005fac;
   border-radius: 5px;
   border: none;
