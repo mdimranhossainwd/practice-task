@@ -13,9 +13,13 @@ body {
   background-image: url("../img/banner/banner3.png");
   min-height: 800px;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .header-content {
+  /* display: flex; */
   text-align: right;
   width: 500px;
   float: right;
@@ -49,4 +53,35 @@ body {
 .button-text {
   font-size: 20px;
   font-weight: 700;
+}
+
+.failures-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 1100px; */
+  margin: 100px 0;
+  /* gap: 100px; */
+}
+
+.failures-text {
+  width: 400px;
+}
+
+.common-heading {
+  color: #151414;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.failures-paragraph {
+  color: #444343;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.failures-list li {
+  color: #444343;
+  margin-bottom: 15px;
+  /* list-style: none; */
 }
