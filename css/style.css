@@ -107,3 +107,69 @@ body {
   font-size: 22px;
   color: #737272;
 }
+
+.news-letter {
+  background-image: url("../img/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 70px 0;
+  margin: 70px 0;
+}
+
+.newsletter-text {
+  position: relative;
+}
+
+footer {
+  background-color: #151414;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 500px; */
+}
+
+.footer-area {
+  display: flex;
+  gap: 460px;
+  padding: 100px 0;
+}
+
+.footer-heading {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.footer-paragraph {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.footer-idienty {
+  margin-bottom: 20px;
+}
+
+.footer-social img {
+  margin-right: 10px;
+}
+
+.form-heading {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-form input {
+  display: block;
+  padding: 20px 20px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+}
+
+button {
+  color: #fff;
+  padding: 19px 26px;
+  background-color: #005fac;
+  border-radius: 5px;
+  border: none;
+}
